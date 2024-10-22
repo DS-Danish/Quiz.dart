@@ -1,0 +1,40 @@
+name: quiz_app
+description: A simple quiz application built with Flutter.
+
+# The following defines the version and build number for your application.
+# You can change this version number to deploy a new version of your app.
+version: 1.0.0+1
+
+# Environment defines the SDK version required to run the app.
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+# Dependencies section lists the packages your app depends on.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add other dependencies here if needed, for example:
+  # http: ^0.14.0
+  # provider: ^6.0.0
+
+# Dev dependencies are packages needed only in development.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Flutter configuration
+flutter:
+
+  # This section is used to configure assets and fonts.
+  uses-material-design: true
+
+  assets:
+    # Uncomment the following line if you plan to add images or other assets
+    # - assets/images/
+
+# Uncomment the following lines if you are using additional fonts
+# fonts:
+#   - family: YourFontFamily
+#     fonts:
+#       - asset: fonts/YourFont.ttf
