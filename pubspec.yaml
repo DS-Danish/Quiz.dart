@@ -1,4 +1,5 @@
 name: quiz_app
+<<<<<<< HEAD
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -37,10 +38,33 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
 
+=======
+description: A simple quiz application built with Flutter.
+
+# The following defines the version and build number for your application.
+# You can change this version number to deploy a new version of your app.
+version: 1.0.0+1
+
+# Environment defines the SDK version required to run the app.
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+# Dependencies section lists the packages your app depends on.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add other dependencies here if needed, for example:
+  # http: ^0.14.0
+  # provider: ^6.0.0
+
+# Dev dependencies are packages needed only in development.
+>>>>>>> be3a0c434e6c95395cf25fd10db0d067cbbca0d4
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+<<<<<<< HEAD
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -89,3 +113,20 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+=======
+# Flutter configuration
+flutter:
+
+  # This section is used to configure assets and fonts.
+  uses-material-design: true
+
+  assets:
+    # Uncomment the following line if you plan to add images or other assets
+    # - assets/images/
+
+# Uncomment the following lines if you are using additional fonts
+# fonts:
+#   - family: YourFontFamily
+#     fonts:
+#       - asset: fonts/YourFont.ttf
+>>>>>>> be3a0c434e6c95395cf25fd10db0d067cbbca0d4
